@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Boss-KFC</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Hepta+Slab:wght@100..900&family=Inika:wght@400;700&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-part-1">Boss</span><span class="logo-part-2">KFC</span>
+        </div>
+        <nav class="nav-menu" aria-label="Головна навігація">
+            <ul>
+                <li>
+                    <a href="/" class="nav-btn" aria-label="Меню">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="24" height="24" aria-hidden="true">
+                            <rect x="0" y="17" width="40" height="6" rx="1"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="/" class="nav-btn" aria-label="Рівні">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="26" height="26" aria-hidden="true">
+                            <polygon points="24,2 46,14 24,26 2,14" fill="none" stroke="currentColor" stroke-width="4"/>
+                            <line x1="2"  y1="22" x2="24" y2="34" stroke="currentColor" stroke-width="4"/>
+                            <line x1="46" y1="22" x2="24" y2="34" stroke="currentColor" stroke-width="4"/>
+                            <line x1="2"  y1="30" x2="24" y2="42" stroke="currentColor" stroke-width="4"/>
+                            <line x1="46" y1="30" x2="24" y2="42" stroke="currentColor" stroke-width="4"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="/" class="nav-btn" aria-label="Закрити">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="22" height="22" aria-hidden="true">
+                            <line x1="2"  y1="2"  x2="38" y2="38" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+                            <line x1="38" y1="2"  x2="2"  y2="38" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-logo-wrap">
+                <img src="img/mascot.png" alt="Маскот Boss KFC" class="hero-mascot">
+                <h1 class="hero-title">Boss</h1>
+            </div>
+            <p class="hero-subtitle">KFC</p>
+        </div>
+    </section>
+
+    <section class="quiz-section">
+        <div class="quiz-bg-stripes" aria-hidden="true">
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+        </div>
+        <h2 class="quiz-main-title">Дізнайся ти бос KFC чи просто людина?</h2>
+        <div class="quiz-grid">
+
+            <div class="quiz-item">
+                <div class="quiz-card">
+                    <img src="img/burger.png" alt="" class="quiz-card-bg" aria-hidden="true">
+                    <div class="quiz-card-content">
+                        <p class="quiz-question">Коли чуєш "курка",<br>ти вже психологічно в KFC?</p>
+                        <div class="quiz-answers">
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="yes">
+                                <span class="custom-radio"></span>
+                                <span class="radio-text">Так</span>
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="no">
+                                <span class="custom-radio"></span>
+                                <span class="radio-text">Ні</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-item">
+                <div class="quiz-card">
+                    <img src="img/burger.png" alt="" class="quiz-card-bg" aria-hidden="true">
+                    <div class="quiz-card-content">
+                        <p class="quiz-question">Тримаєш соус так,<br>ніби він святиня?</p>
+                        <div class="quiz-answers">
+                            <label class="quiz-option">
+                                <input type="radio" name="q2" value="yes">
+                                <span class="custom-radio"></span>
+                                <span class="radio-text">Так</span>
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q2" value="no">
+                                <span class="custom-radio"></span>
+                                <span class="radio-text">Ні</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-item">
+                <div class="quiz-card">
+                    <img src="img/burger.png" alt="" class="quiz-card-bg" aria-hidden="true">
+                    <div class="quiz-card-content">
+                        <p class="quiz-question">Чи вважаєш "відро"<br>одиницею вимірювання їжі?</p>
+                        <div class="quiz-answers">
+                            <label class="quiz-option">
+                                <input type="radio" name="q3" value="yes">
+                                <span class="custom-radio"></span>
+                                <span class="radio-text">Так</span>
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q3" value="no">
+                                <span class="custom-radio"></span>
+                                <span class="radio-text">Ні</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="quiz-submit-btn" type="button">Отримати</button>
+    </section>
+
+    <section class="boss-quiz-section">
+        <h2 class="boss-quiz-title">Хто такий бос KFC?</h2>
+        <div class="boss-quiz-container">
+            <div class="boss-quiz-content">
+
+                <div class="boss-quiz-item">
+                    <p class="boss-quiz-question">1. Ти мінімум раз в житті хотів збудувати трон із коробок KFC?</p>
+                    <div class="boss-quiz-answers">
+                        <button class="boss-quiz-btn" type="button">Так</button>
+                        <button class="boss-quiz-btn" type="button">Ні</button>
+                    </div>
+                </div>
+
+                <div class="boss-quiz-item">
+                    <p class="boss-quiz-question">2. Ти можеш визначити соус на смак із заплющеними очима?</p>
+                    <div class="boss-quiz-answers">
+                        <button class="boss-quiz-btn" type="button">Так</button>
+                        <button class="boss-quiz-btn" type="button">Ні</button>
+                    </div>
+                </div>
+
+                <div class="boss-quiz-item">
+                    <p class="boss-quiz-question">3. Ти забираєш собі останній шматок і не вибачаєшся?</p>
+                    <div class="boss-quiz-answers">
+                        <button class="boss-quiz-btn" type="button">Так</button>
+                        <button class="boss-quiz-btn" type="button">Ні</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="boss-quiz-image-wrap">
+                <img src="img/kfc-boss.png" alt="KFC Boss" class="boss-quiz-image">
+            </div>
+        </div>
+        <button class="quiz-submit-btn boss-quiz-submit" type="button">Отримати</button>
+    </section>
+
+    <section class="result-section">
+        <div class="result-bg-stripes" aria-hidden="true">
+            <div class="result-stripe"></div>
+            <div class="result-stripe"></div>
+            <div class="result-stripe"></div>
+            <div class="result-stripe"></div>
+            <div class="result-stripe"></div>
+        </div>
+        <h2 class="result-title">Отримай свою картку</h2>
+        <div class="result-cards-container">
+
+            <div class="result-card card-boss">
+                <div class="card-header">
+                    <h3 class="card-title">Ти — <span class="title-kfc">Бос KFC</span></h3>
+                    <p class="card-subtitle">Рівень: Соусний Магістр</p>
+                </div>
+                <div class="card-body">
+                    <img src="img/boss-small.png" alt="Бос KFC" class="card-mascot">
+                    <ul class="card-list">
+                        <li>Відчуваєш курку за 3 км</li>
+                        <li>Відерце твоя інвестиція</li>
+                        <li>Трон із відерця заслужений</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="result-card card-human">
+                <div class="card-header">
+                    <h3 class="card-title">Ти — просто людина</h3>
+                    <p class="card-subtitle">Рівень: Новачок</p>
+                </div>
+                <div class="card-body">
+                    <ul class="card-list">
+                        <li>Крила любиш, але ще не боготвориш</li>
+                        <li>Соуси плутаєш</li>
+                        <li>Трон із відерця ще не заслужений</li>
+                    </ul>
+                    <img src="img/human-small.png" alt="Просто людина" class="card-mascot">
+                </div>
+            </div>
+
+        </div>
+        <button class="quiz-submit-btn result-submit-btn" type="button">Отримати</button>
+    </section>
+
+    <section class="account-cta-section">
+        <div class="account-cta-container">
+            <h2 class="account-cta-title">Твій результат вже чекає</h2>
+            <p class="account-cta-subtitle">Створи свій акаунт, щоб отримати картку</p>
+            <button class="quiz-submit-btn account-cta-btn" type="button">Створити</button>
+        </div>
+    </section>
+
+    <footer class="advanced-footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+
+                <div class="footer-col border-right">
+                    <h4 class="footer-heading">Слідкуй за нами</h4>
+                    <div class="social-links-grid">
+                        <a href="#" class="social-icon-dark"><img src="img/Footer/insta.svg" alt="Instagram"></a>
+                        <a href="#" class="social-icon-dark"><img src="img/Footer/tg.svg" alt="Telegram"></a>
+                        <a href="#" class="social-icon-dark"><img src="img/Footer/tw.svg" alt="Twitter"></a>
+                        <a href="#" class="social-icon-dark"><img src="img/Footer/tik-tok.svg" alt="TikTok"></a>
+                    </div>
+                </div>
+
+                <div class="footer-col border-right">
+                    <h4 class="footer-heading">Контакти</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon" aria-hidden="true">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <a href="tel:0777456335">0 777 456 335</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="mailto:support@bosskfc.ua">support@bosskfc.ua</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col border-right">
+                    <h4 class="footer-heading">Приймаємо</h4>
+                    <div class="payment-methods">
+                        <img class="visa-logo" src="img/Footer/visa.svg" alt="Visa">
+                        <img class="paypal-logo" src="img/Footer/paypal.svg" alt="PayPal">
+                        <img class="gpay-logo" src="img/Footer/gpay.svg" alt="Google Pay">
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Швидкі посилання</h4>
+                    <ul class="quick-links">
+                        <li><a href="#">Про нас <span class="arrow">&gt;</span></a></li>
+                        <li><a href="#">Квести <span class="arrow">&gt;</span></a></li>
+                        <li><a href="#">Профіль <span class="arrow">&gt;</span></a></li>
+                        <li><a href="#">FAQ <span class="arrow">&gt;</span></a></li>
+                        <li><a href="#">Правила <span class="arrow">&gt;</span></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-banner">
+                <div class="banner-left">
+                    <img src="img/Footer/banner-mascot.png" alt="Бос KFC" class="banner-image">
+                    <div class="banner-text-wrap">
+                        <h3 class="banner-title">Голодний до перемог?</h3>
+                        <p class="banner-subtitle">Проходь квести, отримуй бали<br>та забирай круті нагороди</p>
+                    </div>
+                </div>
+                <a href="#" class="banner-btn">Дізнатися більше</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Boss KFC. Made for fun & memes</p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
